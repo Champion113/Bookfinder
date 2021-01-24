@@ -2,7 +2,7 @@
 import React from 'React';
 import { Jumbotron, Container, CardColumns, Card, Button } from 'react-bootstrap';
 
-import { deleteBook } from '../utils/API';
+// import { deleteBook } from '../utils/API';
 import { REMOVE_BOOK } from '../utils/mutations';
 import { useMutation, useQuery } from '@apollo/react-hooks';
 import Auth from '../utils/auth';
